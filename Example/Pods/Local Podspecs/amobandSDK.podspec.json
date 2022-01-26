@@ -1,0 +1,22 @@
+{
+  "name": "amobandSDK",
+  "version": "0.1.0",
+  "summary": "A short description of amobandSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/esnoh_mini/amobandSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "esnoh_mini": "esnoh@softnet.co.kr"
+  },
+  "source": {
+    "git": "https://github.com/esnoh_mini/amobandSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "amobandSDK/Classes/**/*"
+}

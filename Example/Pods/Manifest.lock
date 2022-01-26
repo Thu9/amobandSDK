@@ -1,0 +1,16 @@
+PODS:
+  - amobandSDK (0.1.0)
+
+DEPENDENCIES:
+  - amobandSDK (from `../`)
+
+EXTERNAL SOURCES:
+  amobandSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  amobandSDK: 734b572912a4c9164596efe2679d7393ead1ecc7
+
+PODFILE CHECKSUM: 1daae6d27dd1fb309e8adfeb595156b4326a95dd
+
+COCOAPODS: 1.11.2

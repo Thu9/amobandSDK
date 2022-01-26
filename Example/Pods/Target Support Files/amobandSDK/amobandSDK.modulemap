@@ -1,0 +1,6 @@
+framework module amobandSDK {
+  umbrella header "amobandSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'amobandSDK'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of amobandSDK.'
+  s.summary          = 'amobandSDK for amo-ble-capacitor.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/esnoh_mini/amobandSDK'
+  s.homepage         = 'https://github.com/Thu9/amobandSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'esnoh_mini' => 'esnoh@softnet.co.kr' }
-  s.source           = { :git => 'https://github.com/esnoh_mini/amobandSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Thu9/amobandSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
