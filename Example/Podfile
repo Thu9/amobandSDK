@@ -1,0 +1,6 @@
+use_frameworks!
+target 'amobandSDK_Tests' do
+  pod 'amobandSDK', :path => '../'
+  
+  
+end
