@@ -22,7 +22,7 @@ pod 'amobandSDK'
 
 ## Author
 
-esnoh_mini, esnoh@softnet.co.kr
+swlee, swlee@softnet.co.kr
 
 ## License
 
