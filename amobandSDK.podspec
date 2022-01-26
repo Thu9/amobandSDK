@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Thu9/amobandSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'esnoh_mini' => 'esnoh@softnet.co.kr' }
+  s.author           = { 'swlee' => 'swlee@softnet.co.kr' }
   s.source           = { :git => 'https://github.com/Thu9/amobandSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
