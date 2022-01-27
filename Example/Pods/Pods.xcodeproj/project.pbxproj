@@ -17,6 +17,7 @@
 		AE8A33C627A10ACA000A4206 /* YCBTConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8A33C027A10ACA000A4206 /* YCBTConstants.h */; };
 		AE8A33C727A10ACA000A4206 /* YCBTProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8A33C127A10ACA000A4206 /* YCBTProduct.h */; };
 		AE8A33C827A10ACA000A4206 /* CBPeripheral+RSSI.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8A33C227A10ACA000A4206 /* CBPeripheral+RSSI.h */; };
+		AE8A33CE27A220E3000A4206 /* libYCBleSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8A33CD27A220E3000A4206 /* libYCBleSDK.a */; };
 		C0E5319DC9A300DE91B1F5C656DA63F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		EA71D4250E5BB77FE9B96DD23CF8789C /* Pods-amobandSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F591E295139DE33CDE465C733111D7 /* Pods-amobandSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -54,6 +55,7 @@
 		AE8A33C027A10ACA000A4206 /* YCBTConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YCBTConstants.h; path = amobandSDK/Classes/YCBTConstants.h; sourceTree = "<group>"; };
 		AE8A33C127A10ACA000A4206 /* YCBTProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YCBTProduct.h; path = amobandSDK/Classes/YCBTProduct.h; sourceTree = "<group>"; };
 		AE8A33C227A10ACA000A4206 /* CBPeripheral+RSSI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CBPeripheral+RSSI.h"; path = "amobandSDK/Classes/CBPeripheral+RSSI.h"; sourceTree = "<group>"; };
+		AE8A33CD27A220E3000A4206 /* libYCBleSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libYCBleSDK.a; path = amobandSDK/Classes/libYCBleSDK.a; sourceTree = "<group>"; };
 		C9552540F29F7E1FC00DAC8B511F5042 /* amobandSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "amobandSDK-Info.plist"; sourceTree = "<group>"; };
 		DB8762385482B6D53F5482C93B07282C /* amobandSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = amobandSDK.modulemap; sourceTree = "<group>"; };
 		DC5B28CD69B2DD1843205007CA6CDBAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE8A33CE27A220E3000A4206 /* libYCBleSDK.a in Frameworks */,
 				C0E5319DC9A300DE91B1F5C656DA63F3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,6 +113,7 @@
 		6D7E4399F164C4EACFBE130A411408FF /* amobandSDK */ = {
 			isa = PBXGroup;
 			children = (
+				AE8A33CD27A220E3000A4206 /* libYCBleSDK.a */,
 				AE8A33C227A10ACA000A4206 /* CBPeripheral+RSSI.h */,
 				AE8A33BF27A10ACA000A4206 /* NorchFilter.h */,
 				AE8A33BE27A10ACA000A4206 /* YCBleUtils.h */,
